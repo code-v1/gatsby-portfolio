@@ -15,10 +15,10 @@ export const Projects = () => {
 	} = useStaticQuery(graphql`
 		{
 			github {
-				repositoryOwner(login: "smakosh") {
+				repositoryOwner(login: "code-v1") {
 					repositories(
 						first: 8
-						orderBy: { field: STARGAZERS, direction: DESC }
+						orderBy: { field: freeCodeCamp, direction: DESC }
 					) {
 						edges {
 							node {
@@ -26,7 +26,7 @@ export const Projects = () => {
 								name
 								url
 								description
-								stargazers {
+								freeCodeCamp {
 									totalCount
 								}
 								forkCount
