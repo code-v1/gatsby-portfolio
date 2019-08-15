@@ -16,17 +16,14 @@ export const Projects = () => {
 		{
 			github {
 				repositoryOwner(login: "code-v1") {
-					repositories(
-						first: 8
-						orderBy: { field: freeCodeCamp, direction: DESC }
-					) {
+					repositories(last: 10, orderBy: { field: NAME, direction: ASC }) {
 						edges {
 							node {
 								id
 								name
 								url
 								description
-								freeCodeCamp {
+								stargazers {
 									totalCount
 								}
 								forkCount
