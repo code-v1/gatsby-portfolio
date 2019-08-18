@@ -16,7 +16,10 @@ export const Projects = () => {
 		{
 			github {
 				repositoryOwner(login: "code-v1") {
-					repositories(last: 10, orderBy: { field: NAME, direction: ASC }) {
+					repositories(
+						first: 6
+						orderBy: { field: STARGAZERS, direction: DESC }
+					) {
 						edges {
 							node {
 								id
