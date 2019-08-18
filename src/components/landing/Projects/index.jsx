@@ -17,8 +17,8 @@ export const Projects = () => {
 			github {
 				repositoryOwner(login: "code-v1") {
 					repositories(
-						first: 6
-						orderBy: { field: STARGAZERS, direction: DESC }
+						first: 20
+						orderBy: { field: STARGAZERS, direction: ASC }
 					) {
 						edges {
 							node {
