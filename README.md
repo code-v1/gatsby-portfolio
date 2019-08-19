@@ -1,62 +1,40 @@
-# Eric T
+# Eric T Portfolio
 
-> Short blurb about what your product does.
+> Portfolio showcasing projects and contact
 
-One to two paragraph statement about your product and what it does.
+Portfolio site to showcase 9 github projects and provides contact form
 
 ![](public/illustrations/portfolioshot.png)
 
 ## Installation
 
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-## Usage example
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
+Install: npm install for dependencies
 
 ## Development setup
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
+Run : gatsby develop
 
 ## Release History
 
-- 0.2.1
-  - CHANGE: Update docs (module code remains unchanged)
-- 0.2.0
-  - CHANGE: Remove `setDefaultXYZ()`
-  - ADD: Add `init()`
-- 0.1.1
-  - FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-- 0.1.0
-  - The first proper release
-  - CHANGE: Rename `foo()` to `bar()`
 - 0.0.1
-  - Work in progress
+  - First version
+
+## Built with
+
+<li> Adobe XD
+<li>Gatsby
+<li>React & GraphQL
+<li>VSCode
+
+And these useful of JavaScript libraries & Gatsby plugins [package.json](package.json)
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Eric Tovar – [@thetovar](https://twitter.com/thetovar) – tovareric@gmail.com
 
-Distributed under the XYZ license. See `LICENSE` for more information.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/code-v1](https://github.com/code-v1/)
 
 ## Contributing
 
