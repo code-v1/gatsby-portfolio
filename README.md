@@ -4,7 +4,7 @@
 
 Portfolio site to showcase 9 github projects and provides contact form
 
-![portfolio screenshot](public/illustrations/portfolioshot.png)
+![portfolio screenshot](static/illustrations/portfolioshot.png)
 
 ## Installation
 
