@@ -1,110 +1,76 @@
-# Portfolio for developers
+# Eric T
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/57c04515-1d1b-46e8-b531-213fabca9cc4/deploy-status)](https://app.netlify.com/sites/gatsby-portfolio-dev/deploys)
+> Short blurb about what your product does.
 
-## Theme
-[Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio)
+One to two paragraph statement about your product and what it does.
 
-## Features
+![](public/illustrations/portfolioshot.png)
 
-- Eslint/Prettier configured
-- Scores 100% on a11y / Performance / PWA / SEO
-- PWA (desktop & mobile)
-- Easy to customize
-- Nice project structure
-- Amazing illustrations by [Undraw.co](https://undraw.co)
-- Tablet & mobile friendly
-- Continuous deployment with [Netlify](https://netlify.com)
-- A contact form protected by Google Recaptcha
-- Can be deployed with one click
-- Functional components with ~~Recompose~~ React Hooks! ~~ready to migrate to React hooks!~~
-- Fetches your Github pinned projects with most stars (You could customize this if you wish)
+## Installation
 
-## Design
+OS X & Linux:
 
-Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfolio-for-developers)
-
-## Structure
-
-```bash
-.
-├── data
-│   └── config              # SEO related tags
-├── src
-│   ├── components          # Components
-│   │   │── common          # Common components
-│   │   │── landing         # Components used on the landing page
-│   │   └── theme           # Header & Footer
-│   └── pages               # Pages
-└── static                  # Icons, favicon & SVG illustrations
+```sh
+npm install my-crazy-module --save
 ```
 
-## Prerequisites
+Windows:
 
-[Yarn](https://yarnpkg.com/en/)
-
-Please create a new file `.env.development` and put this env variable with your GitHub token
-
-> If you're building locally, you will have to create a new file `.env.production` and put the same env variable
-
-```bash
-GITHUB_TOKEN=xxxxxxxxxx
+```sh
+edit autoexec.bat
 ```
 
-Don't forget to edit your site's data on `data/config.js` file with your Google Recaptcha public key
+## Usage example
 
-When deploying on Netlify, you will have to set the private key as well
+A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
-```bash
-SITE_RECAPTCHA_KEY=xxxxx
+_For more examples and usage, please refer to the [Wiki][wiki]._
 
-SITE_RECAPTCHA_SECRET=xxxxx
+## Development setup
+
+Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+
+```sh
+make install
+npm test
 ```
 
-I highly recommend you check this [repository](https://github.com/imorente/gatsby-netlify-form-example) for more details about the Google Recaptcha and Netlify forms
+## Release History
 
-## Installing
+- 0.2.1
+  - CHANGE: Update docs (module code remains unchanged)
+- 0.2.0
+  - CHANGE: Remove `setDefaultXYZ()`
+  - ADD: Add `init()`
+- 0.1.1
+  - FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
+- 0.1.0
+  - The first proper release
+  - CHANGE: Rename `foo()` to `bar()`
+- 0.0.1
+  - Work in progress
 
-Installing the dependencies
+## Meta
 
-```bash
-yarn
-```
+Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
 
-## Start the dev server
+Distributed under the XYZ license. See `LICENSE` for more information.
 
-```bash
-yarn start
-```
+[https://github.com/yourname/github-link](https://github.com/dbader/)
 
-### Clean the cache
+## Contributing
 
-This removes the `.cache/` & `public/` folders
+1. Fork it (<https://github.com/yourname/yourproject/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
 
-```bash
-yarn reset
-```
+<!-- Markdown link & img dfn's -->
 
-## Built with
-
-- Adobe XD
-- Gatsby
-- React & GraphQL
-- VSCode
-- And these useful of JavaScript libraries & Gatsby plugins [package.json](package.json)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Contributors
-
-- [Ajay NS](https://github.com/ajayns) https://github.com/smakosh/gatsby-portfolio-dev/pull/3
-- [Ryan Lee](https://github.com/drdgvhbh) https://github.com/smakosh/gatsby-portfolio-dev/pull/6
-- [Myself](https://smakosh.com)
-
-## Support
-
-If you love this Gatsby template and want to support me, you can do so through my Patreon
-
-[![Support me on Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/smakosh)
+[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/datadog-metrics
+[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+[wiki]: https://github.com/yourname/yourproject/wiki
