@@ -21,8 +21,14 @@ export const Projects = () => {
 							node {
 								__typename
 								... on GitHub_Repository {
+									id
 									name
+									url
 									description
+									forkCount
+									stargazers{
+										totalCount
+									}
 								}
 							}
 						}
@@ -51,7 +57,7 @@ export const Projects = () => {
 							<Stats>
 								<div>
 									<img src={starIcon} alt="stars" />
-									<span>{node.stargazers}</span>
+									<span>{node.stargazers.totalCount}</span>
 								</div>
 								<div>
 									<img src={forkIcon} alt="forks" />
