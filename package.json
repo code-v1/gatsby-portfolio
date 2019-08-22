@@ -6,6 +6,7 @@
   "author": "Smakosh <ismai23l@hotmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
+    "cwebp": "^2.0.3",
     "dotenv": "^6.2.0",
     "formik": "^1.4.1",
     "gatsby": "^2.8.6",
