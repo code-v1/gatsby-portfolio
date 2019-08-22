@@ -61,7 +61,7 @@ typings/
 public
 
 # Mac files
-.DS_Store
+.DS_Storegatsby-plugin-sharp
 
 # Yarn
 yarn-error.log

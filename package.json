@@ -3,7 +3,7 @@
   "private": true,
   "description": "Eric Tovar Portfolio",
   "version": "0.1.1",
-  "author": "Smakosh <ismai23l@hotmail.com>",
+  "author": "Etovar",
   "dependencies": {
     "cwebp": "^2.0.3",
     "dotenv": "^6.2.0",
@@ -18,7 +18,7 @@
     "gatsby-plugin-nprogress": "^2.0.7",
     "gatsby-plugin-offline": "^2.0.20",
     "gatsby-plugin-react-helmet": "^3.0.2",
-    "gatsby-plugin-sharp": "^2.0.14",
+    "gatsby-plugin-sharp": "^2.2.16",
     "gatsby-plugin-sitemap": "^2.0.3",
     "gatsby-plugin-styled-components": "^3.0.4",
     "gatsby-source-filesystem": "^2.0.8",
@@ -62,7 +62,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
+    "url": "git@github.com:code-v1/gatsby-portfolio.git"
   },
   "bugs": {
     "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"

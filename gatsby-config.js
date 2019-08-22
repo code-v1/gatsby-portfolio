@@ -14,16 +14,16 @@ module.exports = {
 	plugins: [
 		'gatsby-plugin-react-helmet',
 		'gatsby-plugin-styled-components',
-		'resolve: gatsby-plugin-no-sourcemaps',
+
 		/* {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'assets',
-        path: '${__dirname}/src/assets',
-      },
-    }, */
-		'gatsby-transformer-sharp',
-		'gatsby-plugin-sharp',
+		  resolve: 'gatsby-source-filesystem',
+		  options: {
+		    name: 'assets',
+		    path: '${__dirname}/src/assets',
+		  },
+		}, */
+		// 'gatsby-transformer-sharp',
+		// 'gatsby-plugin-sharp',
 		{
 			resolve: 'gatsby-source-graphql',
 			options: {
